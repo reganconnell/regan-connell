@@ -20,9 +20,9 @@
 
 title: regan connell
 email: reganconnell@berkeley.edu
-# description: >-  " " # this means to ignore newlines until "baseurl:"
+# description: >-  hi my name's regan # this means to ignore newlines until "baseurl:"
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "regan-connell" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: reganconnell__
 github_username:  reganconnell
