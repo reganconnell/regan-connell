@@ -35,6 +35,7 @@ remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
+github: [metadata]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
