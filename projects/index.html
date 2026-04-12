@@ -1,0 +1,60 @@
+---
+layout: page
+title:
+description: Projects
+background: '/img/berkcampus.jpg'
+---
+
+<style>
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.project-list-item {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 1.5rem 0;
+}
+.project-list-item:last-child {
+  border-bottom: none;
+}
+.project-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.project-title a {
+  color: #212529;
+  text-decoration: none;
+}
+.project-title a:hover {
+  color: #4863A0;
+  text-decoration: underline;
+}
+.project-meta {
+  font-size: 0.85rem;
+  color: #868e96;
+  margin-bottom: 0.5rem;
+}
+.project-excerpt {
+  font-size: 0.95rem;
+  color: #495057;
+}
+</style>
+
+<ul class="project-list">
+  <li class="project-list-item">
+    <div class="project-title">
+      <a href="{{"/water" | relative_url }}">Predicting Water Usage in American Cities</a>
+    </div>
+    <div class="project-meta">Data Science &middot; Land Use Regression</div>
+    <div class="project-excerpt">A spatial prediction model for urban water use across the United States, exploring K Nearest Neighbors, Linear, Ridge, and Lasso regression approaches.</div>
+  </li>
+  <li class="project-list-item">
+    <div class="project-title">
+      <a href="{{"/energy" | relative_url }}">Campus Energy: UC Berkeley Facilities Services</a>
+    </div>
+    <div class="project-meta">Data Visualization &middot; UC Berkeley</div>
+    <div class="project-excerpt">A data visualization partnership with UC Berkeley Facilities Services to create an accessible, centralized visual record of departmental data and energy usage.</div>
+  </li>
+</ul>

@@ -1,0 +1,53 @@
+---
+layout: page
+title:
+description: Blog
+background: '/img/yosemite.jpg'
+---
+
+<style>
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.post-list-item {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 1.5rem 0;
+}
+.post-list-item:last-child {
+  border-bottom: none;
+}
+.post-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+.post-title a {
+  color: #212529;
+  text-decoration: none;
+}
+.post-title a:hover {
+  color: #4863A0;
+  text-decoration: underline;
+}
+.post-meta {
+  font-size: 0.85rem;
+  color: #868e96;
+  margin-bottom: 0.5rem;
+}
+.post-excerpt {
+  font-size: 0.95rem;
+  color: #495057;
+}
+</style>
+
+<ul class="post-list">
+  <li class="post-list-item">
+    <div class="post-title">
+      <a href="{{"/blog/how-i-got-here" | relative_url }}">How I Got Here</a>
+    </div>
+    <div class="post-meta">April 12, 2026</div>
+    <div class="post-excerpt">From building a BERT-powered chatbot at Juniper Networks, to becoming a founding engineer at F2 building an agentic AI platform — a look at my career path through startups and the AI revolution.</div>
+  </li>
+</ul>
